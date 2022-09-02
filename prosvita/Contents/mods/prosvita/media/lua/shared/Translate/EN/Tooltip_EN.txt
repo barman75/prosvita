@@ -1,0 +1,39 @@
+Toltip_EN = {
+
+    Tooltip_BookTitle = "Book Title",
+    Tooltip_BookTitle_Strength = "Strength",
+    Tooltip_BookTitle_Sprinting = "Sprinting",
+    Tooltip_BookTitle_Nimble = "Nimble",
+    Tooltip_BookTitle_Lightfooted = "Light Foot",
+    Tooltip_BookTitle_Sneaking = "Sneaking",
+
+    Tooltip_BookTitle_Blacksmith = "Blacksmith",
+    Tooltip_BookTitle_Carpentry = "Carpentry",
+    Tooltip_BookTitle_Cooking = "Cooking",
+    Tooltip_BookTitle_Electricity = "Electricity",
+    Tooltip_BookTitle_Farming = "Farming",
+    Tooltip_BookTitle_FirstAid = "First Aid",
+    Tooltip_BookTitle_Fishing = "Fishing",
+    Tooltip_BookTitle_Foraging = "Foraging",
+    Tooltip_BookTitle_Mechanics = "Mechanics",
+    Tooltip_BookTitle_MetalWelding = "Metal Welding",
+    Tooltip_BookTitle_Tailoring = "Tailoring",
+    Tooltip_BookTitle_Trapping = "Trapping",
+
+    Tooltip_BookTitle_Axe = "Axe",
+    Tooltip_BookTitle_Spear = "Spear",
+    Tooltip_BookTitle_SmallBlunt = "Small Blunt",
+    Tooltip_BookTitle_Blunt = "Blunt",
+    Tooltip_BookTitle_SmallBlade = "Small Blade",
+    Tooltip_BookTitle_LongBlade = "Long Blade",
+    Tooltip_BookTitle_Aiming = "Aiming",
+    Tooltip_BookTitle_Reloading = "Reloading",
+    Tooltip_BookTitle_Maintenance = "Maintenance",
+
+    Tooltip_BookTitle_1 = "%1 for Beginners",
+    Tooltip_BookTitle_3 = "%1 for Intermediates",
+    Tooltip_BookTitle_5 = "Advanced %1",
+    Tooltip_BookTitle_7 = "Expert %1",
+    Tooltip_BookTitle_9 = "Master %1",
+
+}

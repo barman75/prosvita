@@ -1,0 +1,45 @@
+RCP=Make Cake Batter 	 Cake batter recipe
+ANG  -- Anger
+BOR  -- boredom
+END  -- endurance
+FAT  -- fatigue
+FIT  -- fitness
+HUN  -- hunger
+MOR  -- morale
+STS  -- stress
+FEA  -- Fear
+PAN  -- Panic
+SAN  -- Sanity
+SIC  -- Sickness
+PAI  -- Pain
+DRU  -- Drunkenness
+THI  -- thirst
+UHP  -- thirst
+
+SPR  --sprinting
+LFT  --lightfooded
+NIM  --nimble
+SNE  --sneaking
+
+CMB -- combat
+SPE -- spears
+SBU -- small blunt
+LBA -- long blade
+SBA -- small blade
+BAA  -- Axe
+BUA  -- Blunt
+AIM   --aiming
+REL  --reloading
+
+CRP  --carpentry
+COO  --cooking
+FRM  --farming
+DOC  --firstaid
+ELC   --electricty
+MTL  --metalwelding
+
+FIS  --fishing
+TRA  --trapping
+FOR  --foraging
+TAI  --tailoring
+MEC  --mechanics

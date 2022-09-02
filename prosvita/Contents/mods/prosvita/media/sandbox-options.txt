@@ -1,0 +1,40 @@
+VERSION = 1,
+
+option BookConsumer.disabled = {
+	type = boolean,
+	default = true,
+	page = BookConsumer,
+	translation = BookConsumer_disabled,
+}
+
+option BookConsumer.allowReadWalking = {
+	type = boolean,
+	default = true,
+	page = BookConsumer,
+	translation = BookConsumer_allowReadWalking,
+}
+
+option BookConsumer.consumeLiterature = {
+	type = boolean,
+	default = true,
+	page = BookConsumer,
+	translation = BookConsumer_consumeLiterature,
+}
+
+option BookConsumer.levelPerBook = {
+	type = integer,
+	default = 1,
+	min = 0,
+	max = 2,
+	page = BookConsumer,
+	translation = BookConsumer_levelPerBook,
+}
+
+option BookConsumer.xpBoostPerBook = {
+	type = integer,
+	default = 100,
+	min = 0,
+	max = 100,
+	page = BookConsumer,
+	translation = BookConsumer_xpBoostPerBook,
+}

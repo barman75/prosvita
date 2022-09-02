@@ -1,0 +1,38 @@
+Toltip_RU = {
+    Tooltip_BookTitle = "Book Title",
+    Tooltip_BookTitle_Strength = "Сила",
+    Tooltip_BookTitle_Sprinting = "Біг",
+    Tooltip_BookTitle_Nimble = "Спритність",
+    Tooltip_BookTitle_Lightfooted = "Легка хода",
+    Tooltip_BookTitle_Sneaking = "Скритність",
+
+   
+    Tooltip_BookTitle_Blacksmith = "Ковальство",
+    Tooltip_BookTitle_Carpentry = "Столярство",
+    Tooltip_BookTitle_Cooking = "Кулінарія",
+    Tooltip_BookTitle_Electricity = "Електроніка",
+    Tooltip_BookTitle_Farming = "Фермерство",
+    Tooltip_BookTitle_FirstAid = "Перша допомога",
+    Tooltip_BookTitle_Fishing = "Рибальство",
+    Tooltip_BookTitle_Foraging = "Збиральництво",
+    Tooltip_BookTitle_Mechanics = "Механіка",
+    Tooltip_BookTitle_MetalWelding = "Зварювання",
+    Tooltip_BookTitle_Tailoring = "Шиття",
+    Tooltip_BookTitle_Trapping = "Звіроловство",
+
+    Tooltip_BookTitle_Axe = "Сокири",
+    Tooltip_BookTitle_Spear = "Списи",
+    Tooltip_BookTitle_SmallBlunt = "Коротка дробна зброя",
+    Tooltip_BookTitle_Blunt = "Довга дробна зброя",
+    Tooltip_BookTitle_SmallBlade = "Коротка ріжуча зброя",
+    Tooltip_BookTitle_LongBlade = "Довга ріжуча зброя",
+    Tooltip_BookTitle_Aiming = "Точність",
+    Tooltip_BookTitle_Reloading = "Перезарядження",
+    Tooltip_BookTitle_Maintenance = "Міцність",
+
+    Tooltip_BookTitle_1 = "%1 для новачків",
+    Tooltip_BookTitle_3 = "%1 для початківців",
+    Tooltip_BookTitle_5 = "%1 для продвинутих",
+    Tooltip_BookTitle_7 = "%1 для експертів",
+    Tooltip_BookTitle_9 = "%1 для майстрів",
+}
