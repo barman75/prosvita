@@ -172,13 +172,15 @@ SkillBook["Spear"].maxMultiplier3 = 8;
 SkillBook["Spear"].maxMultiplier4 = 12;
 SkillBook["Spear"].maxMultiplier5 = 16;
 
+
 SkillBook["Maintenance"] = {};
 SkillBook["Maintenance"].perk = Perks.Maintenance;
-SkillBook["Maintenance"].maxMultiplier1 = 3;
-SkillBook["Maintenance"].maxMultiplier2 = 5;
-SkillBook["Maintenance"].maxMultiplier3 = 8;
-SkillBook["Maintenance"].maxMultiplier4 = 12;
-SkillBook["Maintenance"].maxMultiplier5 = 16;
+SkillBook["Maintenance"].maxMultiplier1 = 2;
+SkillBook["Maintenance"].maxMultiplier2 = 4;
+SkillBook["Maintenance"].maxMultiplier3 = 6;
+SkillBook["Maintenance"].maxMultiplier4 = 8;
+SkillBook["Maintenance"].maxMultiplier5 = 10;
+
 
 SkillBook["Aiming"] = {};
 SkillBook["Aiming"].perk = Perks.Aiming;

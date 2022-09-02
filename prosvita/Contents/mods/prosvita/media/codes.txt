@@ -1,3 +1,4 @@
+/*
 RCP=Make Cake Batter 	 Cake batter recipe
 ANG  -- Anger
 BOR  -- boredom
@@ -14,7 +15,7 @@ SIC  -- Sickness
 PAI  -- Pain
 DRU  -- Drunkenness
 THI  -- thirst
-UHP  -- thirst
+UHP  -- Unhappiness
 
 SPR  --sprinting
 LFT  --lightfooded
@@ -43,3 +44,5 @@ TRA  --trapping
 FOR  --foraging
 TAI  --tailoring
 MEC  --mechanics
+
+*/
