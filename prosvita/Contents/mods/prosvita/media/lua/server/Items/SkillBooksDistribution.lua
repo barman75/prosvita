@@ -8,12 +8,12 @@ local i, j, d
 
 -- 1-5 level MELEE WEAPONS skill Books distribution for ProceduralDistributions.lua
 local myDistTable = {
-"Antiques", 0.01,
-"CampingStoreBooks", 0.01,
-"BookstoreBooks", 0.01,
+"Antiques", 0.001,
+"CampingStoreBooks", 0.001,
+"BookstoreBooks", 0.1,
 "ClassroomDesk", 0.001,
-"CrateBooks", 0.01,
-"LibraryBooks", 0.01,
+"CrateBooks", 0.1,
+"LibraryBooks", 0.1,
 "LivingRoomShelf", 0.001,
 "LivingRoomShelfNoTapes", 0.001,
 "Locker", 0.001,
@@ -21,10 +21,9 @@ local myDistTable = {
 "OtherGeneric", 0.0001,
 "RandomFiller", 0.0001,
 "SchoolLockers", 0.001,
-"ClosetShelfGeneric", 0.01,
-"GunStoreMagazineRack", 0.1,
+"ClosetShelfGeneric", 0.001,
+"GunStoreMagazineRack", 0.01,
 "WardrobeManClassy", 0.001,
-"WardrobeChild", 0.001,
 "SurvivalGear", 0.01,
 "Hunter", 0.1,
 }
@@ -101,16 +100,16 @@ local myDistTable = {
 "CampingStoreBooks", 0.01,
 "BookstoreBooks", 0.1,
 "CrateBooks", 0.01,
-"LivingRoomShelf", 0.01,
-"LivingRoomShelfNoTapes", 0.01,
+"LivingRoomShelf", 0.001,
+"LivingRoomShelfNoTapes", 0.001,
 "Locker", 0.001,
 "OfficeCounter", 0.001,
 "OtherGeneric", 0.001,
 "RandomFiller", 0.001,
 "GunStoreMagazineRack", 1,
 "WardrobeManClassy", 0.001,
-"SurvivalGear", 0.1,
-"Hunter", 1,
+"SurvivalGear", 0.05,
+"Hunter", 0.1,
 
     }
 
