@@ -1,0 +1,261 @@
+module prosvita_books {
+imports {Base}
+
+item ukr_adultmag_1
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_adultmag_1,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -80,
+  StressChange = -80,
+  BoredomChange = -80,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_adultmag_2
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_adultmag_2,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -80,
+  StressChange = -80,
+  BoredomChange = -80,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_adultmag_3
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_adultmag_3,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -80,
+  StressChange = -80,
+  BoredomChange = -80,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_adultmag_4
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_adultmag_4,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -80,
+  StressChange = -80,
+  BoredomChange = -80,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_adultmag_5
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_adultmag_5,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -80,
+  StressChange = -80,
+  BoredomChange = -80,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_adultmag_6
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_adultmag_6,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -80,
+  StressChange = -80,
+  BoredomChange = -80,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_adultmag_7
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_adultmag_7,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -80,
+  StressChange = -80,
+  BoredomChange = -80,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_adultmag_8
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_adultmag_8,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -80,
+  StressChange = -80,
+  BoredomChange = -80,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_adultmag_9
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_adultmag_9,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -80,
+  StressChange = -80,
+  BoredomChange = -80,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_adultmag_10
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_adultmag_10,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -80,
+  StressChange = -80,
+  BoredomChange = -80,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_adultmag_11
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_adultmag_11,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -80,
+  StressChange = -80,
+  BoredomChange = -80,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_adultmag_12
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_adultmag_12,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -80,
+  StressChange = -80,
+  BoredomChange = -80,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_adultmag_13
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_adultmag_13,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -80,
+  StressChange = -80,
+  BoredomChange = -80,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_adultmag_14
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_adultmag_14,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -80,
+  StressChange = -80,
+  BoredomChange = -80,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_adultmag_15
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_adultmag_15,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -80,
+  StressChange = -80,
+  BoredomChange = -80,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_adultmag_16
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_adultmag_16,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -80,
+  StressChange = -80,
+  BoredomChange = -80,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_adultmag_17
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_adultmag_17,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -80,
+  StressChange = -80,
+  BoredomChange = -80,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_adultmag_18
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_adultmag_18,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -80,
+  StressChange = -80,
+  BoredomChange = -80,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+
+
+
+
+
+}

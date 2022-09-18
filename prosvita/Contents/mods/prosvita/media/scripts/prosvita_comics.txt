@@ -1,0 +1,706 @@
+module prosvita_books {
+imports {Base}
+
+item ukr_comics_1
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_1,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_2
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_2,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_3
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_3,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_4
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_4,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_5
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_5,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_6
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_6,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_7
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_7,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_8
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_8,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_9
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_9,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_10
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_10,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_11
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_11,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_12
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_12,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_13
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_13,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_14
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_14,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_15
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_15,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_16
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_16,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_17
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_17,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_18
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_18,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_19
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_19,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_20
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_20,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_21
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_21,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_22
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_22,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_23
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_23,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_24
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_24,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_25
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_25,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_26
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_26,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_27
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_27,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_28
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_28,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_29
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_29,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_30
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_30,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_31
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_31,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_32
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_32,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_33
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_33,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_34
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_34,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_35
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_35,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_36
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_36,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_37
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_37,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_38
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_38,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_39
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_39,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_40
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_40,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_41
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_41,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_42
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_42,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_43
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_43,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_44
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_44,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_45
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_45,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_46
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_46,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_47
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_47,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_48
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_48,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_49
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_49,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+item ukr_comics_50
+{
+  DisplayCategory = Literature,
+  DisplayName = ukr_comics_50,
+  Type = Literature,
+  Icon = ComicBook,
+  Weight = 0.5,
+  UnhappyChange = -20,
+  StressChange = -20,
+  BoredomChange = -30,
+  StaticModel = Magazine,
+  WorldStaticModel = MagazineOpenGround,
+}
+
+
+
+}

@@ -1,0 +1,1960 @@
+module prosvita_books
+{
+imports
+{
+    Base
+}
+
+item book_prosvita_strength_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_strength_1,
+    Icon = prosvita_book1,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Strength,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+item book_prosvita_strength_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_strength_2,
+    Icon = prosvita_book1,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Strength,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+item book_prosvita_strength_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_strength_3,
+    Icon = prosvita_book1,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Strength,
+    LvlSkillTrained = 5
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+item book_prosvita_strength_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_strength_4,
+    Icon = prosvita_book1,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Strength,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+item book_prosvita_strength_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_strength_5,
+    Icon = prosvita_book1,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Strength,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+
+item book_prosvita_fitness_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_fitness_1,
+    Icon = prosvita_book1,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Fitness,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGround,
+}
+item book_prosvita_fitness_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_fitness_2,
+    Icon = prosvita_book1,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Fitness,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGround,
+}
+item book_prosvita_fitness_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_fitness_3,
+    Icon = prosvita_book1,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Fitness,
+    LvlSkillTrained = 5
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGround,
+}
+item book_prosvita_fitness_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_fitness_4,
+    Icon = prosvita_book1,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Fitness,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGround,
+}
+item book_prosvita_fitness_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_fitness_5,
+    Icon = prosvita_book1,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Fitness,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGround,
+}
+
+
+
+item book_prosvita_trapping_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_trapping_1,
+    Icon = prosvita_book9,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Trapping,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellowBrown_Ground,
+}
+item book_prosvita_trapping_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_trapping_2,
+    Icon = prosvita_book9,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Trapping,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellowBrown_Ground,
+}
+item book_prosvita_trapping_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_trapping_3,
+    Icon = prosvita_book9,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Trapping,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellowBrown_Ground,
+}
+item book_prosvita_trapping_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_trapping_4,
+    Icon = prosvita_book9,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Trapping,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellowBrown_Ground,
+}
+item book_prosvita_trapping_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_trapping_5,
+    Icon = prosvita_book9,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Trapping,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellowBrown_Ground,
+}
+
+
+item book_prosvita_fishing_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_fishing_1,
+    Icon = prosvita_book2,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Fishing,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedYellowBrown_Ground,
+}
+item book_prosvita_fishing_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_fishing_2,
+    Icon = prosvita_book2,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Fishing,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedYellowBrown_Ground,
+}
+item book_prosvita_fishing_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_fishing_3,
+    Icon = prosvita_book2,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Fishing,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedYellowBrown_Ground,
+}
+item book_prosvita_fishing_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_fishing_4,
+    Icon = prosvita_book2,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Fishing,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedYellowBrown_Ground,
+}
+item book_prosvita_fishing_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_fishing_5,
+    Icon = prosvita_book2,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Fishing,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedYellowBrown_Ground,
+}
+
+
+item book_prosvita_carpentry_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_carpentry_1,
+    Icon = prosvita_book3,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Carpentry,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookBrown_Ground,
+}
+item book_prosvita_carpentry_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_carpentry_2,
+    Icon = prosvita_book3,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Carpentry,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookBrown_Ground,
+}
+item book_prosvita_carpentry_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_carpentry_3,
+    Icon = prosvita_book3,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Carpentry,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookBrown_Ground,
+}
+item book_prosvita_carpentry_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_carpentry_4,
+    Icon = prosvita_book3,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Carpentry,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookBrown_Ground,
+}
+item book_prosvita_carpentry_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_carpentry_5,
+    Icon = prosvita_book3,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Carpentry,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookBrown_Ground,
+}
+
+
+item book_prosvita_mechanics_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_mechanics_1,
+    Icon = prosvita_book4,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Mechanics,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellow_Ground,
+}
+item book_prosvita_mechanics_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_mechanics_2,
+    Icon = prosvita_book4,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Mechanics,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellow_Ground,
+}
+item book_prosvita_mechanics_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_mechanics_3,
+    Icon = prosvita_book4,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Mechanics,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellow_Ground,
+}
+item book_prosvita_mechanics_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_mechanics_4,
+    Icon = prosvita_book4,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Mechanics,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellow_Ground,
+}
+item book_prosvita_mechanics_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_mechanics_5,
+    Icon = prosvita_book4,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Mechanics,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellow_Ground,
+}
+
+item book_prosvita_firstaid_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_firstaid_1,
+    Icon = prosvita_book5,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = FirstAid,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookLightBlue_Ground,
+}
+item book_prosvita_firstaid_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_firstaid_2,
+    Icon = prosvita_book5,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = FirstAid,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookLightBlue_Ground,
+}
+item book_prosvita_firstaid_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_firstaid_3,
+    Icon = prosvita_book5,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = FirstAid,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookLightBlue_Ground,
+}
+item book_prosvita_firstaid_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_firstaid_4,
+    Icon = prosvita_book5,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = FirstAid,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookLightBlue_Ground,
+}
+item book_prosvita_firstaid_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_firstaid_5,
+    Icon = prosvita_book5,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = FirstAid,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookLightBlue_Ground,
+}
+
+
+item book_prosvita_blacksmith_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_blacksmith_1,
+    Icon = prosvita_book5,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Blacksmith,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+item book_prosvita_blacksmith_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_blacksmith_2,
+    Icon = prosvita_book5,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Blacksmith,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+item book_prosvita_blacksmith_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_blacksmith_3,
+    Icon = prosvita_book5,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Blacksmith,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+item book_prosvita_blacksmith_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_blacksmith_4,
+    Icon = prosvita_book5,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Blacksmith,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+item book_prosvita_blacksmith_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_blacksmith_5,
+    Icon = prosvita_book5,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Blacksmith,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+
+item book_prosvita_metalwelding_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_metalwelding_1,
+    Icon = prosvita_book6,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = MetalWelding,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookRedPink_Ground,
+}
+item book_prosvita_metalwelding_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_metalwelding_2,
+    Icon = prosvita_book6,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = MetalWelding,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookRedPink_Ground,
+}
+item book_prosvita_metalwelding_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_metalwelding_3,
+    Icon = prosvita_book6,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = MetalWelding,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookRedPink_Ground,
+}
+item book_prosvita_metalwelding_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_metalwelding_4,
+    Icon = prosvita_book6,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = MetalWelding,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookRedPink_Ground,
+}
+item book_prosvita_metalwelding_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_metalwelding_5,
+    Icon = prosvita_book6,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = MetalWelding,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookRedPink_Ground,
+}
+
+item book_prosvita_electrician_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_electrician_1,
+    Icon = prosvita_book7,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Electricity,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookGrey_Ground,
+}
+item book_prosvita_electrician_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_electrician_2,
+    Icon = prosvita_book7,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Electricity,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookGrey_Ground,
+}
+item book_prosvita_electrician_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_electrician_3,
+    Icon = prosvita_book7,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Electricity,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookGrey_Ground,
+}
+item book_prosvita_electrician_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_electrician_4,
+    Icon = prosvita_book7,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Electricity,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookGrey_Ground,
+}
+item book_prosvita_electrician_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_electrician_5,
+    Icon = prosvita_book7,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Electricity,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookGrey_Ground,
+}
+
+item book_prosvita_cooking_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_cooking_1,
+    Icon = prosvita_book8,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Cooking,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookRedPink_Ground,
+}
+item book_prosvita_cooking_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_cooking_2,
+    Icon = prosvita_book8,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Cooking,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookRedPink_Ground,
+}
+item book_prosvita_cooking_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_cooking_3,
+    Icon = prosvita_book8,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Cooking,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookRedPink_Ground,
+}
+item book_prosvita_cooking_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_cooking_4,
+    Icon = prosvita_book8,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Cooking,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookRedPink_Ground,
+}
+item book_prosvita_cooking_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_cooking_5,
+    Icon = prosvita_book8,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Cooking,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookRedPink_Ground,
+}
+
+item book_prosvita_farming_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_farming_1,
+    Icon = prosvita_book9,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Farming,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookDarkCyan_Ground,
+}
+item book_prosvita_farming_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_farming_2,
+    Icon = prosvita_book9,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Farming,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookDarkCyan_Ground,
+}
+item book_prosvita_farming_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_farming_3,
+    Icon = prosvita_book9,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Farming,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookDarkCyan_Ground,
+}
+item book_prosvita_farming_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_farming_4,
+    Icon = prosvita_book9,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Farming,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookDarkCyan_Ground,
+}
+item book_prosvita_farming_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_farming_5,
+    Icon = prosvita_book9,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Farming,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookDarkCyan_Ground,
+}
+
+
+item book_prosvita_foraging_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_foraging_1,
+    Icon = prosvita_book1,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Foraging,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedLightGreen_Ground,
+}
+item book_prosvita_foraging_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_foraging_2,
+    Icon = prosvita_book1,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Foraging,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedLightGreen_Ground,
+}
+item book_prosvita_foraging_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_foraging_3,
+    Icon = prosvita_book1,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Foraging,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedLightGreen_Ground,
+}
+item book_prosvita_foraging_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_foraging_4,
+    Icon = prosvita_book1,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Foraging,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedLightGreen_Ground,
+}
+item book_prosvita_foraging_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_foraging_5,
+    Icon = prosvita_book1,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Foraging,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedLightGreen_Ground,
+}
+
+item book_prosvita_tailoring_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_tailoring_1,
+    Icon = prosvita_book2,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Tailoring,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGreen_Ground,
+}
+item book_prosvita_tailoring_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_tailoring_2,
+    Icon = prosvita_book2,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Tailoring,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGreen_Ground,
+}
+item book_prosvita_tailoring_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_tailoring_3,
+    Icon = prosvita_book2,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Tailoring,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGreen_Ground,
+}
+item book_prosvita_tailoring_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_tailoring_4,
+    Icon = prosvita_book2,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Tailoring,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGreen_Ground,
+}
+item book_prosvita_tailoring_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_tailoring_5,
+    Icon = prosvita_book2,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Tailoring,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGreen_Ground,
+}
+
+item book_prosvita_axes_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_axes_1,
+    Icon = prosvita_book1,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Axe,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellow_Ground,
+}
+item book_prosvita_axes_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_axes_2,
+    Icon = prosvita_book1,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Axe,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellow_Ground,
+}
+item book_prosvita_axes_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_axes_3,
+    Icon = prosvita_book1,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Axe,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellow_Ground,
+}
+item book_prosvita_axes_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_axes_4,
+    Icon = prosvita_book1,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Axe,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellow_Ground,
+}
+item book_prosvita_axes_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_axes_5,
+    Icon = prosvita_book1,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Axe,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellow_Ground,
+}
+
+
+item book_prosvita_spears_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_spears_1,
+    Icon = prosvita_book2,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Spear,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+item book_prosvita_spears_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_spears_2,
+    Icon = prosvita_book2,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Spear,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+item book_prosvita_spears_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_spears_3,
+    Icon = prosvita_book2,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Spear,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+item book_prosvita_spears_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_spears_4,
+    Icon = prosvita_book2,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Spear,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+item book_prosvita_spears_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_spears_5,
+    Icon = prosvita_book2,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Spear,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+
+
+item book_prosvita_shortblunt_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_shortblunt_1,
+    Icon = prosvita_book3,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = SmallBlunt,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedYellow_Ground,
+}
+item book_prosvita_shortblunt_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_shortblunt_2,
+    Icon = prosvita_book3,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = SmallBlunt,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedYellow_Ground,
+}
+item book_prosvita_shortblunt_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_shortblunt_3,
+    Icon = prosvita_book3,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = SmallBlunt,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedYellow_Ground,
+}
+item book_prosvita_shortblunt_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_shortblunt_4,
+    Icon = prosvita_book3,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = SmallBlunt,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedYellow_Ground,
+}
+item book_prosvita_shortblunt_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_shortblunt_5,
+    Icon = prosvita_book3,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = SmallBlunt,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedYellow_Ground,
+}
+
+
+item book_prosvita_blunt_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_blunt_1,
+    Icon = prosvita_book4,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Blunt,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedRedPink_Ground,
+}
+item book_prosvita_blunt_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_blunt_2,
+    Icon = prosvita_book4,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Blunt,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedRedPink_Ground,
+}
+item book_prosvita_blunt_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_blunt_3,
+    Icon = prosvita_book4,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Blunt,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedRedPink_Ground,
+}
+item book_prosvita_blunt_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_blunt_4,
+    Icon = prosvita_book4,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Blunt,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedRedPink_Ground,
+}
+item book_prosvita_blunt_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_blunt_5,
+    Icon = prosvita_book4,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Blunt,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedRedPink_Ground,
+}
+
+
+item book_prosvita_shortblade_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_shortblade_1,
+    Icon = prosvita_book5,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = SmallBlade,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+item book_prosvita_shortblade_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_shortblade_2,
+    Icon = prosvita_book5,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = SmallBlade,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+item book_prosvita_shortblade_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_shortblade_3,
+    Icon = prosvita_book5,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = SmallBlade,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+item book_prosvita_shortblade_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_shortblade_4,
+    Icon = prosvita_book5,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = SmallBlade,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+item book_prosvita_shortblade_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_shortblade_5,
+    Icon = prosvita_book5,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = SmallBlade,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+
+
+item book_prosvita_longblade_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_longblade_1,
+    Icon = prosvita_book6,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = LongBlade,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookLightBlue_Ground,
+}
+item book_prosvita_longblade_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_longblade_2,
+    Icon = prosvita_book6,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = LongBlade,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookLightBlue_Ground,
+}
+item book_prosvita_longblade_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_longblade_3,
+    Icon = prosvita_book6,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = LongBlade,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookLightBlue_Ground,
+}
+item book_prosvita_longblade_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_longblade_4,
+    Icon = prosvita_book6,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = LongBlade,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookLightBlue_Ground,
+}
+item book_prosvita_longblade_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_longblade_5,
+    Icon = prosvita_book6,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = LongBlade,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookLightBlue_Ground,
+}
+
+
+item book_prosvita_aiming_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_aiming_1,
+    Icon = prosvita_book7,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Aiming,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellow_Ground,
+}
+item book_prosvita_aiming_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_aiming_2,
+    Icon = prosvita_book7,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Aiming,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellow_Ground,
+}
+item book_prosvita_aiming_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_aiming_3,
+    Icon = prosvita_book7,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Aiming,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellow_Ground,
+}
+item book_prosvita_aiming_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_aiming_4,
+    Icon = prosvita_book7,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Aiming,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellow_Ground,
+}
+item book_prosvita_aiming_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_aiming_5,
+    Icon = prosvita_book7,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Aiming,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellow_Ground,
+}
+
+
+item book_prosvita_reloading_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_reloading_1,
+    Icon = prosvita_book8,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Reloading,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedBrown_Ground,
+}
+item book_prosvita_reloading_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_reloading_2,
+    Icon = prosvita_book8,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Reloading,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedBrown_Ground,
+}
+item book_prosvita_reloading_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_reloading_3,
+    Icon = prosvita_book8,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Reloading,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedBrown_Ground,
+}
+item book_prosvita_reloading_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_reloading_4,
+    Icon = prosvita_book8,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Reloading,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedBrown_Ground,
+}
+item book_prosvita_reloading_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_reloading_5,
+    Icon = prosvita_book8,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Reloading,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedBrown_Ground,
+}
+
+
+item book_prosvita_maintenance_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_maintenance_1,
+    Icon = prosvita_book9,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Maintenance,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+item book_prosvita_maintenance_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_maintenance_2,
+    Icon = prosvita_book9,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Maintenance,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+item book_prosvita_maintenance_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_maintenance_3,
+    Icon = prosvita_book9,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Maintenance,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+item book_prosvita_maintenance_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_maintenance_4,
+    Icon = prosvita_book9,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Maintenance,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+item book_prosvita_maintenance_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_maintenance_5,
+    Icon = prosvita_book9,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Maintenance,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+
+
+item book_prosvita_sprint_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_sprint_1,
+    Icon = prosvita_book1,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Sprinting,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+item book_prosvita_sprint_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_sprint_2,
+    Icon = prosvita_book1,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Sprinting,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+item book_prosvita_sprint_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_sprint_3,
+    Icon = prosvita_book1,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Sprinting,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+item book_prosvita_sprint_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_sprint_4,
+    Icon = prosvita_book1,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Sprinting,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+item book_prosvita_sprint_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_sprint_5,
+    Icon = prosvita_book1,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Sprinting,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+
+
+item book_prosvita_agility_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_agility_1,
+    Icon = prosvita_book2,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Nimble,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+item book_prosvita_agility_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_agility_1,
+    Icon = prosvita_book2,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Nimble,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+item book_prosvita_agility_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_agility_2,
+    Icon = prosvita_book2,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Nimble,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+item book_prosvita_agility_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_agility_3,
+    Icon = prosvita_book2,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Nimble,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+item book_prosvita_agility_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_agility_4,
+    Icon = prosvita_book2,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Nimble,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+item book_prosvita_agility_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_agility_5,
+    Icon = prosvita_book2,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Nimble,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookClosedGrey_Ground,
+}
+
+
+item book_prosvita_lightfoot_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_lightfoot_1,
+    Icon = prosvita_book3,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Lightfooted,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellowBrown_Ground,
+}
+item book_prosvita_lightfoot_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_lightfoot_2,
+    Icon = prosvita_book3,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Lightfooted,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellowBrown_Ground,
+}
+item book_prosvita_lightfoot_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_lightfoot_3,
+    Icon = prosvita_book3,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Lightfooted,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellowBrown_Ground,
+}
+item book_prosvita_lightfoot_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_lightfoot_4,
+    Icon = prosvita_book3,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Lightfooted,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellowBrown_Ground,
+}
+item book_prosvita_lightfoot_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_lightfoot_5,
+    Icon = prosvita_book3,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Lightfooted,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookYellowBrown_Ground,
+}
+
+
+item book_prosvita_stealth_1
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_stealth_1,
+    Icon = prosvita_book4,
+    NumberOfPages = 220,
+    Weight = 0.5,
+    SkillTrained = Sneaking,
+    LvlSkillTrained = 1,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+item book_prosvita_stealth_2
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_stealth_2,
+    Icon = prosvita_book4,
+    NumberOfPages = 260,
+    Weight = 0.5,
+    SkillTrained = Sneaking,
+    LvlSkillTrained = 3,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+item book_prosvita_stealth_3
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_stealth_3,
+    Icon = prosvita_book4,
+    NumberOfPages = 300,
+    Weight = 0.5,
+    SkillTrained = Sneaking,
+    LvlSkillTrained = 5,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+item book_prosvita_stealth_4
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_stealth_4,
+    Icon = prosvita_book4,
+    NumberOfPages = 340,
+    Weight = 0.5,
+    SkillTrained = Sneaking,
+    LvlSkillTrained = 7,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+item book_prosvita_stealth_5
+{
+    DisplayCategory = SkillBook,
+    Type = Literature,
+    DisplayName	= prosvita_stealth_5,
+    Icon = prosvita_book4,
+    NumberOfPages = 380,
+    Weight = 0.5,
+    SkillTrained = Sneaking,
+    LvlSkillTrained = 9,
+    NumLevelsTrained = 2,
+    StaticModel = Book,
+    WorldStaticModel = BookPurple_Ground,
+}
+
+
+
+}

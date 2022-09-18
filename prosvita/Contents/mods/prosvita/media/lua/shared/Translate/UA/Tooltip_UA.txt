@@ -6,7 +6,7 @@ Toltip_UA = {
     Tooltip_BookTitle_Lightfooted = "Легка хода",
     Tooltip_BookTitle_Sneaking = "Скритність",
 
-   
+
     Tooltip_BookTitle_Blacksmith = "Ковальство",
     Tooltip_BookTitle_Carpentry = "Столярство",
     Tooltip_BookTitle_Cooking = "Кулінарія",

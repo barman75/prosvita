@@ -8,38 +8,28 @@ local i, j, d
 
 -- 1-5 level MELEE WEAPONS skill Books distribution for ProceduralDistributions.lua
 local myDistTable = {
-"Antiques", 1,
-"CampingStoreBooks", 2,
-"BookstoreBooks", 2,
-"DaycareDesk", 0.5,
-"DaycareShelves", 0.5,
-"ClassroomDesk", 0.5,
-"ClassroomMisc", 1,
-"ClassroomShelves", 1,
-"CrateBooks", 1,
-"LibraryBooks", 1,
-"LibraryCounter", 1,
-"LivingRoomShelf", 0.1,
-"LivingRoomShelfNoTapes", 0.1,
-"Locker", 0.01,
-"MechanicShelfBooks", 0.1,
-"MedicalOfficeBooks", 0.1,
-"OfficeCounter", 0.1,
-"OtherGeneric", 0.05,
-"RandomFiller", 0.05,
-"SchoolLockers", 0.05,
-"PostOfficeBooks", 0.5,
-"ShelfGeneric", 0.05,
-"ClosetShelfGeneric", 0.1,
-"GunStoreMagazineRack", 2,
-"WardrobeManClassy", 0.1,
-"WardrobeChild", 0.05,
-"SurvivalGear", 2,
-"Hunter",2,
-
+"Antiques", 0.01,
+"CampingStoreBooks", 0.01,
+"BookstoreBooks", 0.01,
+"ClassroomDesk", 0.001,
+"CrateBooks", 0.01,
+"LibraryBooks", 0.01,
+"LivingRoomShelf", 0.001,
+"LivingRoomShelfNoTapes", 0.001,
+"Locker", 0.001,
+"OfficeCounter", 0.001,
+"OtherGeneric", 0.0001,
+"RandomFiller", 0.0001,
+"SchoolLockers", 0.001,
+"ClosetShelfGeneric", 0.01,
+"GunStoreMagazineRack", 0.1,
+"WardrobeManClassy", 0.001,
+"WardrobeChild", 0.001,
+"SurvivalGear", 0.01,
+"Hunter", 0.1,
 }
 
-for i = 1, #myDistTable, 2 do 
+for i = 1, #myDistTable, 2 do
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_axes_1")
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_axes_2")
@@ -49,7 +39,7 @@ for i = 1, #myDistTable, 2 do
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_axes_4")
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_axes_5")
-  table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])  
+  table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_spears_1")
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_spears_2")
@@ -59,7 +49,7 @@ for i = 1, #myDistTable, 2 do
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_spears_4")
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_spears_5")
-  table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])  
+  table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_shortblunt_1")
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_shortblunt_2")
@@ -69,7 +59,7 @@ for i = 1, #myDistTable, 2 do
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_shortblunt_4")
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_shortblunt_5")
-  table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])  
+  table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_blunt_1")
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_blunt_2")
@@ -79,7 +69,7 @@ for i = 1, #myDistTable, 2 do
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_blunt_4")
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_blunt_5")
-  table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])    
+  table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_shortblade_1")
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_shortblade_2")
@@ -89,7 +79,7 @@ for i = 1, #myDistTable, 2 do
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_shortblade_4")
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_shortblade_5")
-  table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])    
+  table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_longblade_1")
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_longblade_2")
@@ -99,7 +89,7 @@ for i = 1, #myDistTable, 2 do
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_longblade_4")
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
   table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_longblade_5")
-  table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])    
+  table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
 end
 myDistTable = nil
 
@@ -107,36 +97,24 @@ myDistTable = nil
 -- 1-5 level FIREARMS skill Books distribution for ProceduralDistributions.lua
 local myDistTable = {
 
-"Antiques", 0.5,
-"CampingStoreBooks", 1,
-"BookstoreBooks", 0.5,
-"DaycareDesk", 0.01,
-"DaycareShelves", 0.01,
-"ClassroomDesk", 0.5,
-"ClassroomMisc", 0.01,
-"ClassroomShelves", 0.01,
-"CrateBooks", 0.1,
+"Antiques", 0.001,
+"CampingStoreBooks", 0.01,
+"BookstoreBooks", 0.1,
+"CrateBooks", 0.01,
 "LivingRoomShelf", 0.01,
-"LivingRoomShelfNoTapes", 0.1,
-"Locker", 0.01,
-"MechanicShelfBooks", 0.1,
-"MedicalOfficeBooks", 0.1,
-"OfficeCounter", 0.1,
-"OtherGeneric", 0.05,
-"RandomFiller", 0.05,
-"SchoolLockers", 0.05,
-"PostOfficeBooks", 0.01,
-"ShelfGeneric", 0.01,
-"ClosetShelfGeneric", 0.01,
-"GunStoreMagazineRack", 2,
-"WardrobeManClassy", 0.1,
-"WardrobeChild", 0.001,
-"SurvivalGear", 1,
-"Hunter", 2,
+"LivingRoomShelfNoTapes", 0.01,
+"Locker", 0.001,
+"OfficeCounter", 0.001,
+"OtherGeneric", 0.001,
+"RandomFiller", 0.001,
+"GunStoreMagazineRack", 1,
+"WardrobeManClassy", 0.001,
+"SurvivalGear", 0.1,
+"Hunter", 1,
 
     }
-    
-    for i = 1, #myDistTable, 2 do 
+
+    for i = 1, #myDistTable, 2 do
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_aiming_1")
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_aiming_2")
@@ -146,7 +124,7 @@ local myDistTable = {
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_aiming_4")
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_aiming_5")
-      table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])      
+      table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_reloading_1")
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_reloading_2")
@@ -156,44 +134,37 @@ local myDistTable = {
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_reloading_4")
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_reloading_5")
-      table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])            
+      table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
     end
     myDistTable = nil
 
 
--- 1-5 level CRAFT Books distribution for ProceduralDistributions.lua
+-- 1-5 level CRAFT MECH Books distribution for ProceduralDistributions.lua
 local myDistTable = {
-  "Antiques", 0.5,
-  "CampingStoreBooks", 0.5,
-  "BookstoreBooks", 1,
-  "DaycareDesk", 0.05,
-  "DaycareShelves", 0.05,
-  "ClassroomDesk", 0.5,
-  "ClassroomMisc", 0.2,
-  "ClassroomShelves", 0.1,
-  "CrateBooks", 0.1,
+  "Antiques", 0.1,
+  "CampingStoreBooks", 0.2,
+  "BookstoreBooks", 0.1,
+  "ClassroomDesk", 0.01,
+  "CrateBooks", 0.01,
   "LibraryBooks", 0.1,
-  "LibraryCounter", 0.1,
+  "LibraryCounter", 0.001,
   "LivingRoomShelf", 0.01,
   "LivingRoomShelfNoTapes", 0.1,
   "Locker", 0.01,
-  "MechanicShelfBooks", 1,
-  "MedicalOfficeBooks", 0.01,
+  "MechanicShelfBooks", 0.5,
   "OfficeCounter", 0.1,
   "OtherGeneric", 0.05,
   "RandomFiller", 0.05,
-  "SchoolLockers", 0.05,
+  "SchoolLockers", 0.02,
   "PostOfficeBooks", 0.01,
-  "ShelfGeneric", 0.05,
+  "ShelfGeneric", 0.01,
   "ClosetShelfGeneric", 0.1,
-  "GunStoreMagazineRack", 1,
-  "WardrobeManClassy", 0.1,
-  "WardrobeChild", 0.05,
-  "SurvivalGear", 2,
-  "Hunter", 0.05,
+  "WardrobeManClassy", 0.01,
+  "WardrobeChild", 0.01,
+  "SurvivalGear", 0.1,
   }
 
-    for i = 1, #myDistTable, 2 do 
+    for i = 1, #myDistTable, 2 do
     table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_carpentry_1")
     table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
     table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_carpentry_2")
@@ -213,7 +184,7 @@ local myDistTable = {
     table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_mechanics_4")
     table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
     table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_mechanics_5")
-    table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])    
+    table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
     table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_blacksmith_1")
     table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
     table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_blacksmith_2")
@@ -249,12 +220,12 @@ local myDistTable = {
 
 -- 1-5 level MEDICAL Books distribution for ProceduralDistributions.lua
 local myDistTable = {
-  "Antiques", 0.5,
+  "Antiques", 0.01,
   "CampingStoreBooks", 0.1,
   "BookstoreBooks", 0.5,
   "DaycareDesk", 0.5,
-  "DaycareShelves", 0.5,
-  "ClassroomDesk", 0.2,
+  "DaycareShelves", 0.2,
+  "ClassroomDesk", 0.01,
   "ClassroomMisc", 0.1,
   "ClassroomShelves", 0.1,
   "CrateBooks", 0.1,
@@ -269,8 +240,8 @@ local myDistTable = {
   "OtherGeneric", 0.05,
   "RandomFiller", 0.05,
   "SchoolLockers", 0.05,
-  "PostOfficeBooks", 0.5,
-  "ShelfGeneric", 0.5,
+  "PostOfficeBooks", 0.01,
+  "ShelfGeneric", 0.05,
   "ClosetShelfGeneric", 0.1,
   "GunStoreMagazineRack", 1,
   "WardrobeManClassy", 0.1,
@@ -279,7 +250,7 @@ local myDistTable = {
   "Hunter", 0.1,
     }
 
-    for i = 1, #myDistTable, 2 do 
+    for i = 1, #myDistTable, 2 do
     table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_firstaid_1")
     table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
     table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_firstaid_2")
@@ -317,7 +288,7 @@ local myDistTable = {
   "RandomFiller", 0.05,
   "SchoolLockers", 0.5,
   "PostOfficeBooks", 0.2,
-  "ShelfGeneric", 0.1,
+  "ShelfGeneric", 0.01,
   "ClosetShelfGeneric", 0.1,
   "GunStoreMagazineRack", 0.01,
   "WardrobeManClassy", 0.1,
@@ -325,8 +296,8 @@ local myDistTable = {
   "SurvivalGear", 2,
   "Hunter", 0.01,
 }
-    
-    for i = 1, #myDistTable, 2 do 
+
+    for i = 1, #myDistTable, 2 do
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_cooking_1")
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_cooking_2")
@@ -356,7 +327,7 @@ local myDistTable = {
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_farming_4")
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_farming_5")
-      table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])      
+      table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
     end
     myDistTable = nil
 
@@ -384,7 +355,7 @@ local myDistTable = {
   "RandomFiller", 0.05,
   "SchoolLockers", 0.05,
   "PostOfficeBooks", 0.5,
-  "ShelfGeneric", 0.5,
+  "ShelfGeneric", 0.05,
   "ClosetShelfGeneric", 0.1,
   "GunStoreMagazineRack", 2,
   "WardrobeManClassy", 0.1,
@@ -392,8 +363,8 @@ local myDistTable = {
   "SurvivalGear", 2,
   "Hunter", 3,
     }
-        
-        for i = 1, #myDistTable, 2 do 
+
+        for i = 1, #myDistTable, 2 do
           table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_trapping_1")
           table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
           table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_trapping_2")
@@ -425,7 +396,7 @@ local myDistTable = {
           table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_foraging_5")
           table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
         end
-        myDistTable = nil    
+        myDistTable = nil
 
 
 -- 1-3 lvl books Distributions for VEHICLES VehicleDistributions.lua. May be broken in next updates due devs going to ProceduralDistributions
@@ -437,10 +408,10 @@ myDistTable = {
   "TrunkSports", 0.01,
   "FarmerTruckBed", 0.01,
   "PostalTruckBed", 0.01,
-  "SurvivalistTruckBed", 0.5,
+  "SurvivalistTruckBed", 0.1,
 }
 
-for i = 1, #myDistTable, 2 do  
+for i = 1, #myDistTable, 2 do
   table.insert(VehicleDistributions[myDistTable[i]].items, "prosvita_books.book_prosvita_foraging_1")
   table.insert(VehicleDistributions[myDistTable[i]].items, myDistTable[i+1])
   table.insert(VehicleDistributions[myDistTable[i]].items, "prosvita_books.book_prosvita_axes_1")
@@ -467,8 +438,8 @@ myDistTable = nil
 local myDistTable = {
     "GymLockers", 0.02,
     }
-    
-    for i = 1, #myDistTable, 2 do 
+
+    for i = 1, #myDistTable, 2 do
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_strength_1")
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_strength_2")
@@ -478,7 +449,7 @@ local myDistTable = {
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_strength_4")
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_strength_5")
-      table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])      
+      table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_fitness_1")
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_fitness_2")
@@ -488,6 +459,6 @@ local myDistTable = {
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_fitness_4")
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_fitness_5")
-      table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])            
+      table.insert(ProceduralDistributions.list[myDistTable[i]].items, myDistTable[i+1])
     end
     myDistTable = nil

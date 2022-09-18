@@ -3,20 +3,20 @@ SkillBook = {};
 SkillBook["Strength"] = {};
 SkillBook["Strength"].perk = Perks.Strength;
 SkillBook["Strength"].maxMultiplier1 = 2;
-SkillBook["Strength"].maxMultiplier2 = 2;
-SkillBook["Strength"].maxMultiplier3 = 3;
-SkillBook["Strength"].maxMultiplier4 = 4;
-SkillBook["Strength"].maxMultiplier5 = 5;
+SkillBook["Strength"].maxMultiplier2 = 3;
+SkillBook["Strength"].maxMultiplier3 = 4;
+SkillBook["Strength"].maxMultiplier4 = 5;
+SkillBook["Strength"].maxMultiplier5 = 6;
 
 SkillBook["Fitness"] = {};
 SkillBook["Fitness"].perk = Perks.Fitness;
 SkillBook["Fitness"].maxMultiplier1 = 2;
-SkillBook["Fitness"].maxMultiplier2 = 2;
-SkillBook["Fitness"].maxMultiplier3 = 3;
-SkillBook["Fitness"].maxMultiplier4 = 4;
-SkillBook["Fitness"].maxMultiplier5 = 5;
+SkillBook["Fitness"].maxMultiplier2 = 3;
+SkillBook["Fitness"].maxMultiplier3 = 4;
+SkillBook["Fitness"].maxMultiplier4 = 5;
+SkillBook["Fitness"].maxMultiplier5 = 6;
 
---
+
 
 SkillBook["Carpentry"] = {};
 SkillBook["Carpentry"].perk = Perks.Woodwork;
@@ -114,63 +114,63 @@ SkillBook["Tailoring"].maxMultiplier3 = 8;
 SkillBook["Tailoring"].maxMultiplier4 = 12;
 SkillBook["Tailoring"].maxMultiplier5 = 16;
 
---
+
 
 SkillBook["Axe"] = {};
 SkillBook["Axe"].perk = Perks.Axe;
-SkillBook["Axe"].maxMultiplier1 = 3;
-SkillBook["Axe"].maxMultiplier2 = 5;
-SkillBook["Axe"].maxMultiplier3 = 8;
-SkillBook["Axe"].maxMultiplier4 = 12;
-SkillBook["Axe"].maxMultiplier5 = 16;
+SkillBook["Axe"].maxMultiplier1 = 2;
+SkillBook["Axe"].maxMultiplier2 = 4;
+SkillBook["Axe"].maxMultiplier3 = 6;
+SkillBook["Axe"].maxMultiplier4 = 8;
+SkillBook["Axe"].maxMultiplier5 = 10;
 
 SkillBook["Blunt"] = {};
 SkillBook["Blunt"].perk = Perks.Blunt;
-SkillBook["Blunt"].maxMultiplier1 = 3;
-SkillBook["Blunt"].maxMultiplier2 = 5;
-SkillBook["Blunt"].maxMultiplier3 = 8;
-SkillBook["Blunt"].maxMultiplier4 = 12;
-SkillBook["Blunt"].maxMultiplier5 = 16;
+SkillBook["Blunt"].maxMultiplier1 = 2;
+SkillBook["Blunt"].maxMultiplier2 = 4;
+SkillBook["Blunt"].maxMultiplier3 = 6;
+SkillBook["Blunt"].maxMultiplier4 = 8;
+SkillBook["Blunt"].maxMultiplier5 = 10;
 
 SkillBook["SmallBlunt"] = {};
 SkillBook["SmallBlunt"].perk = Perks.SmallBlunt;
-SkillBook["SmallBlunt"].maxMultiplier1 = 3;
-SkillBook["SmallBlunt"].maxMultiplier2 = 5;
-SkillBook["SmallBlunt"].maxMultiplier3 = 8;
-SkillBook["SmallBlunt"].maxMultiplier4 = 12;
-SkillBook["SmallBlunt"].maxMultiplier5 = 16;
+SkillBook["SmallBlunt"].maxMultiplier1 = 2;
+SkillBook["SmallBlunt"].maxMultiplier2 = 4;
+SkillBook["SmallBlunt"].maxMultiplier3 = 6;
+SkillBook["SmallBlunt"].maxMultiplier4 = 8;
+SkillBook["SmallBlunt"].maxMultiplier5 = 10;
 
 SkillBook["LongBlade"] = {};
 SkillBook["LongBlade"].perk = Perks.LongBlade;
-SkillBook["LongBlade"].maxMultiplier1 = 3;
-SkillBook["LongBlade"].maxMultiplier2 = 5;
-SkillBook["LongBlade"].maxMultiplier3 = 8;
-SkillBook["LongBlade"].maxMultiplier4 = 12;
-SkillBook["LongBlade"].maxMultiplier5 = 16;
+SkillBook["LongBlade"].maxMultiplier1 = 2;
+SkillBook["LongBlade"].maxMultiplier2 = 4;
+SkillBook["LongBlade"].maxMultiplier3 = 6;
+SkillBook["LongBlade"].maxMultiplier4 = 8;
+SkillBook["LongBlade"].maxMultiplier5 = 10;
 
 SkillBook["SmallBlade"] = {};
 SkillBook["SmallBlade"].perk = Perks.SmallBlade;
-SkillBook["SmallBlade"].maxMultiplier1 = 3;
-SkillBook["SmallBlade"].maxMultiplier2 = 5;
-SkillBook["SmallBlade"].maxMultiplier3 = 8;
-SkillBook["SmallBlade"].maxMultiplier4 = 12;
-SkillBook["SmallBlade"].maxMultiplier5 = 16;
+SkillBook["SmallBlade"].maxMultiplier1 = 2;
+SkillBook["SmallBlade"].maxMultiplier2 = 4;
+SkillBook["SmallBlade"].maxMultiplier3 = 6;
+SkillBook["SmallBlade"].maxMultiplier4 = 8;
+SkillBook["SmallBlade"].maxMultiplier5 = 10;
 
 SkillBook["Spear"] = {};
 SkillBook["Spear"].perk = Perks.Spear;
-SkillBook["Spear"].maxMultiplier1 = 3;
-SkillBook["Spear"].maxMultiplier2 = 5;
-SkillBook["Spear"].maxMultiplier3 = 8;
-SkillBook["Spear"].maxMultiplier4 = 12;
-SkillBook["Spear"].maxMultiplier5 = 16;
+SkillBook["Spear"].maxMultiplier1 = 2;
+SkillBook["Spear"].maxMultiplier2 = 3;
+SkillBook["Spear"].maxMultiplier3 = 6;
+SkillBook["Spear"].maxMultiplier4 = 8;
+SkillBook["Spear"].maxMultiplier5 = 10;
 
 SkillBook["Spear"] = {};
 SkillBook["Spear"].perk = Perks.Spear;
-SkillBook["Spear"].maxMultiplier1 = 3;
-SkillBook["Spear"].maxMultiplier2 = 5;
-SkillBook["Spear"].maxMultiplier3 = 8;
-SkillBook["Spear"].maxMultiplier4 = 12;
-SkillBook["Spear"].maxMultiplier5 = 16;
+SkillBook["Spear"].maxMultiplier1 = 2;
+SkillBook["Spear"].maxMultiplier2 = 4;
+SkillBook["Spear"].maxMultiplier3 = 6;
+SkillBook["Spear"].maxMultiplier4 = 8;
+SkillBook["Spear"].maxMultiplier5 = 10;
 
 
 SkillBook["Maintenance"] = {};
@@ -184,48 +184,48 @@ SkillBook["Maintenance"].maxMultiplier5 = 10;
 
 SkillBook["Aiming"] = {};
 SkillBook["Aiming"].perk = Perks.Aiming;
-SkillBook["Aiming"].maxMultiplier1 = 3;
-SkillBook["Aiming"].maxMultiplier2 = 5;
-SkillBook["Aiming"].maxMultiplier3 = 8;
-SkillBook["Aiming"].maxMultiplier4 = 12;
-SkillBook["Aiming"].maxMultiplier5 = 16;
+SkillBook["Aiming"].maxMultiplier1 = 2;
+SkillBook["Aiming"].maxMultiplier2 = 4;
+SkillBook["Aiming"].maxMultiplier3 = 6;
+SkillBook["Aiming"].maxMultiplier4 = 8;
+SkillBook["Aiming"].maxMultiplier5 = 10;
 
 SkillBook["Reloading"] = {};
 SkillBook["Reloading"].perk = Perks.Reloading;
-SkillBook["Reloading"].maxMultiplier1 = 3;
-SkillBook["Reloading"].maxMultiplier2 = 5;
-SkillBook["Reloading"].maxMultiplier3 = 8;
-SkillBook["Reloading"].maxMultiplier4 = 12;
-SkillBook["Reloading"].maxMultiplier5 = 16;
+SkillBook["Reloading"].maxMultiplier1 = 2;
+SkillBook["Reloading"].maxMultiplier2 = 4;
+SkillBook["Reloading"].maxMultiplier3 = 6;
+SkillBook["Reloading"].maxMultiplier4 = 8;
+SkillBook["Reloading"].maxMultiplier5 = 10;
 
 SkillBook["Sprinting"] = {};
 SkillBook["Sprinting"].perk = Perks.Sprinting;
-SkillBook["Sprinting"].maxMultiplier1 = 3;
-SkillBook["Sprinting"].maxMultiplier2 = 5;
-SkillBook["Sprinting"].maxMultiplier3 = 8;
-SkillBook["Sprinting"].maxMultiplier4 = 12;
-SkillBook["Sprinting"].maxMultiplier5 = 16;
+SkillBook["Sprinting"].maxMultiplier1 = 2;
+SkillBook["Sprinting"].maxMultiplier2 = 4;
+SkillBook["Sprinting"].maxMultiplier3 = 6;
+SkillBook["Sprinting"].maxMultiplier4 = 8;
+SkillBook["Sprinting"].maxMultiplier5 = 10;
 
 SkillBook["Lightfooted"] = {};
 SkillBook["Lightfooted"].perk = Perks.Lightfoot;
-SkillBook["Lightfooted"].maxMultiplier1 = 3;
-SkillBook["Lightfooted"].maxMultiplier2 = 5;
-SkillBook["Lightfooted"].maxMultiplier3 = 8;
-SkillBook["Lightfooted"].maxMultiplier4 = 12;
-SkillBook["Lightfooted"].maxMultiplier5 = 16;
+SkillBook["Lightfooted"].maxMultiplier1 = 2;
+SkillBook["Lightfooted"].maxMultiplier2 = 4;
+SkillBook["Lightfooted"].maxMultiplier3 = 6;
+SkillBook["Lightfooted"].maxMultiplier4 = 8;
+SkillBook["Lightfooted"].maxMultiplier5 = 10;
 
 SkillBook["Nimble"] = {};
 SkillBook["Nimble"].perk = Perks.Nimble;
-SkillBook["Nimble"].maxMultiplier1 = 3;
-SkillBook["Nimble"].maxMultiplier2 = 5;
-SkillBook["Nimble"].maxMultiplier3 = 8;
-SkillBook["Nimble"].maxMultiplier4 = 12;
-SkillBook["Nimble"].maxMultiplier5 = 16;
+SkillBook["Nimble"].maxMultiplier1 = 2;
+SkillBook["Nimble"].maxMultiplier2 = 4;
+SkillBook["Nimble"].maxMultiplier3 = 6;
+SkillBook["Nimble"].maxMultiplier4 = 8;
+SkillBook["Nimble"].maxMultiplier5 = 10;
 
 SkillBook["Sneaking"] = {};
 SkillBook["Sneaking"].perk = Perks.Sneak;
-SkillBook["Sneaking"].maxMultiplier1 = 3;
-SkillBook["Sneaking"].maxMultiplier2 = 5;
-SkillBook["Sneaking"].maxMultiplier3 = 8;
-SkillBook["Sneaking"].maxMultiplier4 = 12;
-SkillBook["Sneaking"].maxMultiplier5 = 16;
+SkillBook["Sneaking"].maxMultiplier1 = 2;
+SkillBook["Sneaking"].maxMultiplier2 = 4;
+SkillBook["Sneaking"].maxMultiplier3 = 6;
+SkillBook["Sneaking"].maxMultiplier4 = 8;
+SkillBook["Sneaking"].maxMultiplier5 = 10;
