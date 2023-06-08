@@ -113,7 +113,7 @@ item book_prosvita_fitness_3
     NumberOfPages = 300,
     Weight = 0.5,
     SkillTrained = Fitness,
-    LvlSkillTrained = 5
+    LvlSkillTrained = 5,
     NumLevelsTrained = 2,
     StaticModel = Book,
     WorldStaticModel = BookClosedGround,
