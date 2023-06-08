@@ -1,7 +1,6 @@
 require 'Items/ProceduralDistributions'
 require 'Items/Distributions'
 
-
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, "prosvita_books.book_prosvita_sprint_1");
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, 0.1);
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, "prosvita_books.book_prosvita_sprint_2");
@@ -24,7 +23,6 @@ table.insert(ProceduralDistributions.list["BookstoreBooks"].items, 0.02);
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, "prosvita_books.book_prosvita_agility_5");
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, 0.01);
 
-
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, "prosvita_books.book_prosvita_lightfoot_1");
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, 0.1);
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, "prosvita_books.book_prosvita_lightfoot_2");
@@ -35,7 +33,6 @@ table.insert(ProceduralDistributions.list["BookstoreBooks"].items, "prosvita_boo
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, 0.02);
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, "prosvita_books.book_prosvita_lightfoot_5");
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, 0.01);
-
 
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, "prosvita_books.book_prosvita_stealth_1");
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, 0.1);
@@ -59,7 +56,6 @@ table.insert(ProceduralDistributions.list["BookstoreBooks"].items, 0.02);
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, "prosvita_books.book_prosvita_strength_5");
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, 0.01);
 
-
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, "prosvita_books.book_prosvita_fitness_1");
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, 0.1);
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, "prosvita_books.book_prosvita_fitness_2");
@@ -70,7 +66,6 @@ table.insert(ProceduralDistributions.list["BookstoreBooks"].items, "prosvita_boo
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, 0.02);
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, "prosvita_books.book_prosvita_fitness_5");
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, 0.01);
-
 
 table.insert(ProceduralDistributions.list["SurvivalGear"].items, "prosvita_books.book_maintenance_1");
 table.insert(ProceduralDistributions.list["SurvivalGear"].items, 0.1);
