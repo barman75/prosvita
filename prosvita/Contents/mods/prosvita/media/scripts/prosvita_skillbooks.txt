@@ -42,7 +42,7 @@ item book_prosvita_strength_3
     NumberOfPages = 300,
     Weight = 0.5,
     SkillTrained = Strength,
-    LvlSkillTrained = 5
+    LvlSkillTrained = 5,
     NumLevelsTrained = 2,
     StaticModel = Book,
     WorldStaticModel = BookPurple_Ground,
