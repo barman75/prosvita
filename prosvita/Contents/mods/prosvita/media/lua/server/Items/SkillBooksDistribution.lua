@@ -8,23 +8,23 @@ local i, j, d
 
 -- 1-5 level MELEE WEAPONS skill Books distribution for ProceduralDistributions.lua
 local myDistTable = {
-"Antiques", 0.001,
-"CampingStoreBooks", 0.001,
+"Antiques", 0.0001,
+"CampingStoreBooks", 0.0001,
 "BookstoreBooks", 0.01,
-"ClassroomDesk", 0.001,
+"ClassroomDesk", 0.0001,
 "CrateBooks", 0.01,
 "LibraryBooks", 0.01,
 "LivingRoomShelf", 0.001,
 "LivingRoomShelfNoTapes", 0.001,
-"Locker", 0.001,
-"OfficeCounter", 0.001,
-"OtherGeneric", 0.0001,
+"Locker", 0.0001,
+"OfficeCounter", 0.00001,
+"OtherGeneric", 0.00001,
 "RandomFiller", 0.0001,
 "SchoolLockers", 0.001,
 "ClosetShelfGeneric", 0.001,
 "GunStoreMagazineRack", 0.01,
-"WardrobeManClassy", 0.001,
-"SurvivalGear", 0.01,
+"WardrobeManClassy", 0.0001,
+"SurvivalGear", 0.001,
 "Hunter", 0.01,
 }
 
@@ -95,22 +95,19 @@ myDistTable = nil
 
 -- 1-5 level FIREARMS skill Books distribution for ProceduralDistributions.lua
 local myDistTable = {
-
-"Antiques", 0.001,
-"CampingStoreBooks", 0.01,
-"BookstoreBooks", 0.01,
-"CrateBooks", 0.01,
-"LivingRoomShelf", 0.001,
-"LivingRoomShelfNoTapes", 0.001,
-"Locker", 0.001,
-"OfficeCounter", 0.001,
-"OtherGeneric", 0.001,
-"RandomFiller", 0.001,
-"GunStoreMagazineRack", 0.1,
-"WardrobeManClassy", 0.001,
-"SurvivalGear", 0.05,
-"Hunter", 0.01,
-
+    "CampingStoreBooks", 0.0001,
+    "BookstoreBooks", 0.01,
+    "CrateBooks", 0.001,
+    "LivingRoomShelfNoTapes", 0.001,
+    "LivingRoomShelf", 0.001,
+    "Locker", 0.001,
+    "OfficeCounter", 0.0001,
+    "OtherGeneric", 0.00001,
+    "RandomFiller", 0.00001,
+    "GunStoreMagazineRack", 0.1,
+    "WardrobeManClassy", 0.001,
+    "SurvivalGear", 0.05,
+    "Hunter", 0.3,
     }
 
     for i = 1, #myDistTable, 2 do
@@ -140,27 +137,23 @@ local myDistTable = {
 
 -- 1-5 level CRAFT MECH Books distribution for ProceduralDistributions.lua
 local myDistTable = {
-  "Antiques", 0.01,
   "CampingStoreBooks", 0.1,
-  "BookstoreBooks", 0.01,
-  "ClassroomDesk", 0.001,
+  "BookstoreBooks", 0.1,
+  "ClassroomDesk", 0.0001,
   "CrateBooks", 0.01,
   "LibraryBooks", 0.01,
   "LibraryCounter", 0.001,
-  "LivingRoomShelf", 0.01,
+  "LivingRoomShelf", 0.001,
   "LivingRoomShelfNoTapes", 0.01,
-  "Locker", 0.01,
+  "Locker", 0.001,
   "MechanicShelfBooks", 0.5,
-  "OfficeCounter", 0.01,
-  "OtherGeneric", 0.05,
-  "RandomFiller", 0.001,
-  "SchoolLockers", 0.03,
-  "PostOfficeBooks", 0.001,
-  "ShelfGeneric", 0.01,
-  "ClosetShelfGeneric", 0.1,
-  "WardrobeManClassy", 0.01,
-  "WardrobeChild", 0.001,
-  "SurvivalGear", 0.1,
+  "OtherGeneric", 0.001,
+  "RandomFiller", 0.0001,
+  "SchoolLockers", 0.001,
+  "ShelfGeneric", 0.001,
+  "ClosetShelfGeneric", 0.01,
+  "WardrobeManClassy", 0.001,
+  "SurvivalGear", 0.01,
   }
 
     for i = 1, #myDistTable, 2 do
@@ -219,32 +212,27 @@ local myDistTable = {
 
 -- 1-5 level MEDICAL Books distribution for ProceduralDistributions.lua
 local myDistTable = {
-  "Antiques", 0.01,
-  "CampingStoreBooks", 0.1,
-  "BookstoreBooks", 0.5,
-  "DaycareDesk", 0.5,
+  "CampingStoreBooks", 0.01,
+  "BookstoreBooks", 0.1,
+  "DaycareDesk", 0.01,
   "DaycareShelves", 0.2,
-  "ClassroomDesk", 0.01,
-  "ClassroomMisc", 0.1,
-  "ClassroomShelves", 0.1,
-  "CrateBooks", 0.1,
+  "ClassroomDesk", 0.0001,
+  "ClassroomMisc", 0.001,
+  "ClassroomShelves", 0.001,
+  "CrateBooks", 0.01,
   "LibraryBooks", 1.5,
   "LibraryCounter", 1.5,
   "LivingRoomShelf", 0.01,
-  "LivingRoomShelfNoTapes", 0.1,
+  "LivingRoomShelfNoTapes", 0.01,
   "Locker", 0.01,
-  "MechanicShelfBooks", 0.01,
   "MedicalOfficeBooks", 2,
   "OfficeCounter", 0.01,
   "OtherGeneric", 0.05,
   "RandomFiller", 0.05,
   "SchoolLockers", 0.05,
-  "PostOfficeBooks", 0.01,
-  "ShelfGeneric", 0.05,
-  "ClosetShelfGeneric", 0.1,
-  "GunStoreMagazineRack", 1,
-  "WardrobeManClassy", 0.1,
-  "WardrobeChild", 0.05,
+  "ShelfGeneric", 0.001,
+  "ClosetShelfGeneric", 0.0001,
+  "WardrobeManClassy", 0.0001,
   "SurvivalGear", 0.1,
   "Hunter", 0.1,
     }
@@ -266,7 +254,6 @@ local myDistTable = {
 
 -- 1-5 level COOKING, TAILORING, FARMING skill Books distribution for ProceduralDistributions.lua
 local myDistTable = {
-  "Antiques", 0.01,
   "CampingStoreBooks", 0.2,
   "BookstoreBooks", 0.5,
   "DaycareDesk", 0.1,
@@ -289,9 +276,7 @@ local myDistTable = {
   "PostOfficeBooks", 0.01,
   "ShelfGeneric", 0.01,
   "ClosetShelfGeneric", 0.1,
-  "GunStoreMagazineRack", 0.01,
   "WardrobeManClassy", 0.1,
-  "WardrobeChild", 0.05,
   "SurvivalGear", 0.5,
   "Hunter", 0.01,
 }
@@ -336,8 +321,6 @@ local myDistTable = {
   "Antiques", 0.05,
   "CampingStoreBooks", 1,
   "BookstoreBooks", 1,
-  "DaycareDesk", 0.01,
-  "DaycareShelves", 0.05,
   "ClassroomDesk", 0.01,
   "ClassroomMisc", 0.01,
   "ClassroomShelves", 0.01,
@@ -347,20 +330,15 @@ local myDistTable = {
   "LivingRoomShelf", 0.01,
   "LivingRoomShelfNoTapes", 0.1,
   "Locker", 0.01,
-  "MechanicShelfBooks", 0.1,
-  "MedicalOfficeBooks", 0.01,
-  "OfficeCounter", 0.01,
-  "OtherGeneric", 0.005,
-  "RandomFiller", 0.001,
+  "OtherGeneric", 0.0001,
+  "RandomFiller", 0.0001,
   "SchoolLockers", 0.05,
-  "PostOfficeBooks", 0.5,
-  "ShelfGeneric", 0.05,
-  "ClosetShelfGeneric", 0.01,
+  "ShelfGeneric", 0.001,
+  "ClosetShelfGeneric", 0.001,
   "GunStoreMagazineRack", 2,
-  "WardrobeManClassy", 0.05,
-  "WardrobeChild", 0.001,
-  "SurvivalGear", 2,
-  "Hunter", 3,
+  "WardrobeManClassy", 0.001,
+  "SurvivalGear", 1,
+  "Hunter", 1,
     }
 
         for i = 1, #myDistTable, 2 do
@@ -401,12 +379,12 @@ local myDistTable = {
 -- 1-3 lvl books Distributions for VEHICLES VehicleDistributions.lua. May be broken in next updates due devs going to ProceduralDistributions
 myDistTable = nil
 myDistTable = {
-  "GloveBox", 0.01,
+  "GloveBox", 0.001,
   "TrunkStandard", 0.01,
   "TrunkHeavy", 0.01,
-  "TrunkSports", 0.01,
+  "TrunkSports", 0.001,
   "FarmerTruckBed", 0.01,
-  "PostalTruckBed", 0.01,
+  "PostalTruckBed", 0.001,
   "SurvivalistTruckBed", 0.1,
 }
 
@@ -435,7 +413,7 @@ myDistTable = nil
 
 -- 1-5 level RARE skill Books distribution for ProceduralDistributions.lua
 local myDistTable = {
-    "GymLockers", 0.01,
+    "GymLockers", 0.001,
     }
     for i = 1, #myDistTable, 2 do
       table.insert(ProceduralDistributions.list[myDistTable[i]].items, "prosvita_books.book_prosvita_strength_1")

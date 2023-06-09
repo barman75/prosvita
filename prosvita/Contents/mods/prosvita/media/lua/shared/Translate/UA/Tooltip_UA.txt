@@ -5,6 +5,7 @@ Toltip_UA = {
     Tooltip_BookTitle_Nimble = "Спритність",
     Tooltip_BookTitle_Lightfooted = "Легка хода",
     Tooltip_BookTitle_Sneaking = "Скритність",
+    Tooltip_BookTitle_Fitness = "Фітнес",
 
 
     Tooltip_BookTitle_Blacksmith = "Ковальство",
