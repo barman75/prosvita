@@ -17,7 +17,7 @@ local ItemDist = {
       {"LivingRoomSideTable", 0.01},
       {"LivingRoomSideTableNoRemote", 0.001},
       {"LibraryBooks", 0.0001},
-      {"Locker", 0.01},
+      {"Locker", 0.001},
       {"MagazineRackMixed", 0.01},
     },
 
